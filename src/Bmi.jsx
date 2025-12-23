@@ -14,13 +14,13 @@ function Bmi(){
         setBmi(bmiValue)
 
         if(bmiValue < 18.5){
-          setBmiCategory("Underweight")
+          setBmiCategory("Under weight")
         }
         else if (bmiValue >=18.5 && bmiValue < 25){
           setBmiCategory("Healthy Weight")
         }
         else if (bmiValue >=25 && bmiValue < 30){
-          setBmiCategory("Overweight")
+          setBmiCategory("Over weight")
         }
         else{
           setBmiCategory("Obesity")
