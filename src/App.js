@@ -1,9 +1,10 @@
-import Login from "./Login";
+import Temperature from "./Temperature";
+
 
 function App() {
   return (
    <>
-   <Login/>
+   <Temperature/>
     </>
   );
 }
