@@ -1,10 +1,9 @@
-import Temperature from "./Temperature";
+import Joke from "./Joke";
+function App(){
 
-
-function App() {
   return (
    <>
-   <Temperature/>
+  <Joke/>
     </>
   );
 }
